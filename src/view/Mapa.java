@@ -44,7 +44,7 @@ public class Mapa extends JFrame {
 	public Mapa() {
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1560, 1560);
+		setBounds(100, 100, 970, 570);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -269,8 +269,8 @@ public class Mapa extends JFrame {
 		contentPane.add(btnMD15);
 		
 		JLabel labelFundo = new JLabel("");
-		labelFundo.setIcon(new ImageIcon(Mapa.class.getResource("/imagens/Fundo.png")));
-		labelFundo.setBounds(0, 0, 1118, 465);
+		labelFundo.setIcon(new ImageIcon(Mapa.class.getResource("/imagens/gtasamapa.png")));
+		labelFundo.setBounds(0, 0, 960, 540);
 		contentPane.add(labelFundo);
 		
 	}
